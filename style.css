@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Libre+Baskerville:300,400,500,600,700');
+
+body {
+  font-family: 'Roboto', 'Poppins', 'sans-serif';
+  position: relative;
+}
+
+.major-color {
+    color: #522e91;
+}
+
+.secondary-color {
+    color: #ffb124;
+}
+
+/* navbar */
+
+/*
+.logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} */
+
+.main-logo {
+    margin: 20px auto;
+    position: relative;
+    align-items: center;
+}
+
+.quickstats {
+    color: #522e91;
+    font-weight: medium;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+/* callout */
+.callout-container1 {
+    height: 80vh;
+    background: url('../images/bgimg1.jpg') no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.opaque-overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 40, 180, 0.2);
+}
+
+.jumbotron1 {
+    background-color: transparent;
+    padding-left: 40px;
+}
+
+.jumbotron1 .h1, .jumbotron1 h1 {
+    color: #fafafa;
+}
+
+.jumbotron1 p {
+    color: #fafafa;
+}
+
+
+.btn-jumbotron {
+    background-color: #522e91;
+    border-color: #522e91;
+    color: white;
+}
+
+
+.btn-jumbotron:hover {
+    background-color: #ffb124;
+    border-color: #ffb124;
+    color: #522e91;
+    font-weight: bold;
+}
+
+/* OAS nav items */
+
+.oas-nav {
+    background-color: #ffb124;
+    float: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.oas-nav li a {
+    color: green;
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+
+
+
+/* section headings */
+
+.openaccess {
+    color: #522e91;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-family: Anton;
+}
+
+.subheading {
+    color: black;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+/* second counter */
+
+.counter {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.meals,.clients,.showers,.healthcare {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.counter-count {
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    background-color: #522e91;
+    font-weight: 400;
+    position: relative;
+    color: white;
+    border: 2px solid #ffb124;
+    text-align: center;
+    line-height: 165px;
+    width: 165px;
+    height: 165px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.meals-p,.customer-p,.order-p,.design-p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 29px;
+}
+
+
+/* footer */
+
+.footy-footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* Primary health */
+/*
+.open-access {
+    height: 100vh;
+    background: url('../images/mqibg2.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+}
+
+
+.white-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+   
+}
+
+
+.oas-images {
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 3px solid #522e91;
+}
+
+.figure1-caption {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.oas-container {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*--  OAS Wrapper --*/
+
+.oas-wrapper {
+    height: 100vh;
+    background: url('../images/mqibg2.jpg') no-repeat top center fixed; 
+    background-color: #fff000;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.oas-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5px;
+  padding: 100px;
+}
+
+.oas-column {
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  background-color: rgba(0, 0, 10, 0.2);
+  margin: 5px;
+  
+}
+
+
+/* third container */
+.container-wrapper-edu {
+    height: 120vh;
+    background: url('../images/mqibg2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 120px;
+    color: white;
+}
+
+.opaque-overlay-edu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}    
+
+.header-education {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.education {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.time-line {
+    content: attr(dates);
+    color: orange;
+    font-weight: bold;
+}
+
+.education .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/*
+.education .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+*/
+
+/* general links */
+
+.gen-links {
+    text-decoration: none;
+    color: green;
+}
+
+.gen-links :hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+@media screen and (max-width: 764px) {
+    .quickstats {
+        color: #522e91;
+        font-weight: bold;
+        text-align: center;
+        width: 50%
+    }
+    
+    .logo {
+        width: 50%;
+        position: relative;
+    }
+}
